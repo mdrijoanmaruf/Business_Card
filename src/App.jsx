@@ -23,7 +23,7 @@ function BusinessCard() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex flex-col items-center justify-center p-4">
       <div className="max-w-md w-full bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl border border-white/20 overflow-hidden">
         
         {/* Profile Section */}
@@ -70,6 +70,13 @@ function BusinessCard() {
 
         {/* Action Buttons */}
         <Footer />
+      </div>
+      
+      {/* Developer Credit */}
+      <div className="mt-8 text-center">
+        <p className="text-gray-600 text-xs opacity-70">
+          Developed by <a href="https://rijoan.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-400 underline transition-colors">Rijoan Maruf</a>
+        </p>
       </div>
     </div>
   )

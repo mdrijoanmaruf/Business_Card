@@ -78,7 +78,7 @@ const Info = () => {
           <span className="mr-2">⭐</span> Experience
         </h3>
         <p className="text-gray-300 text-sm">
-          1+ years in mobile repair industry with 100+ satisfied customers
+          3+ years in mobile repair industry with 100+ satisfied customers
         </p>
       </div>
     </div>
