@@ -73,7 +73,7 @@ const Contact = () => {
         </div>
         <div>
           <p className="text-gray-300 text-xs">Shop Location</p>
-          <p className="text-white font-medium">Jamuna Future Park , Dhaka</p>
+          <p className="text-white font-medium">Level #4 , Blcok #B , Shop #022C1, Jamuna Future Park , Dhaka-1229</p>
         </div>
       </div>
     </div>
